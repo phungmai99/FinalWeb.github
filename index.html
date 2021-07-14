@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title> Spa trial </title>
+
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet'>
+
+  <link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
+
+  <link href='https://fonts.googleapis.com/css?family=Merriweather Sans' rel='stylesheet'>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <style type="text/css">
+    .header_text{
+      padding-left: 21%;
+    }
+    .carousel-caption h1{
+      font-family: 'Satisfy';font-size: 60px;
+    }
+    .button_items{
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+    .button_items button{
+      background-color: #A69B63;
+      border: none;
+      padding: 9px 26px;
+      border-radius: 30px;
+    }
+    .container{
+      margin-top: 50px;
+      margin-bottom: 10px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 1px;
+      padding-right: 1px;
+      width: 120%;
+      height: 970px;
+    }
+    .service{
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 1px;
+      padding-right: 1px;
+      text-align: center;
+    }
+    .service h2 a{
+      color: #000;
+      font-family: 'Merienda';
+    }
+    .Service_items{
+      padding-left: 0.7%;
+    }
+    .Service_items  th{
+      padding: 0.7rem;
+    }
+    .Service_items div h2{
+      font-size: 20px;
+      background-color: #D9D9D9;
+      padding: 10px 20px;
+    
+    }
+    .content{
+      width: 100%;
+      
+    }
+    #left_content
+    {
+      width: 49%; 
+      margin:5px; 
+      padding: 1rem; 
+      font-size: 39px;
+      font-family: 'Merriweather Sans';
+      font-weight: bold;
+      color: #73672D;
+    }
+    #right_content{
+      width: 49%; 
+      margin:5px; 
+      padding: 1rem; 
+    }
+    #title_textRight b{
+      font-size: 20px;
+      font-family: 'Merriweather Sans';
+    }
+    #title_textRight p{
+      font-family: 'Merriweather Sans', sans-serif;
+    }
+
+
+    #left_content{float: left;}
+    #right_content{float: right;}
+
+    #Button_rightContent button{
+      padding: 10px 200px;
+      font-weight: bold;
+      background-color: #A69B63;
+      border-radius: 3px;
+      border: none;
+    }
+    footer{
+      margin-top: 10px;
+      background-color: #2A2C2E;
+      width: 100%;
+      height: 420px;
+    }
+    .footer_container{
+      margin-top: 10px;
+      padding-left: 10px;
+      padding-right: 10px;
+      text-align: center;
+    }
+    .footer_container p{
+      padding-top: 20px;
+      color: white;
+    }
+
+    form{
+      font-size: 20px;
+    }
+    #btnSumit{
+      background-color: #2A2C2E;
+      color: white;
+      border: 0.1rem solid white ;
+    }
+    #btnSumit {
+      font-size: 10px;
+    }
+    #txtEmail{
+      padding-right: 60px;
+    }
+
+    .fa {
+      font-size: 30px;
+      text-align: center;
+      text-decoration: none; 
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border-radius: 4px;
+    }
+
+    .fa:hover {
+        opacity: 0.7;
+    }
+
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+
+    .fa-google {
+      background: #dd4b39;
+      color: white;
+    }
+
+    .fa-youtube {
+      background: #bb0000;
+      color: white;
+    }
+
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+    .socialMedia{
+      margin-top: 20px;
+    }
+  </style>
+
+  <body>
+    <header>
+      <!-- my NAVBAR code starts here -->
+  <nav class="navbar navbar-expand-sm bg-light navbar-light">
+
+    <!-- Brand/logo -->
+    <a class="navbar-brand" href="#">
+      <img src="Image/logo.jpg" style="width: 60px;"></a>
+    
+    <!-- Links -->
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="service.html">Spa Service </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="aboutUs.html">About us</a>
+      </li>
+   </ul>
+  </nav>
+
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#demo" data-slide-to="0" class="active"></li>
+      <li data-target="#demo" data-slide-to="1"></li>
+      <li data-target="#demo" data-slide-to="2"></li>
+    </ul>
+    
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="Image/2.jpg" alt="image2" width="100%" height="700">
+        <div class=" carousel-caption">
+          <h1 style=" color: #26180B;"><b>Your Destination for</h1></b>
+          <h1 style=" color: #26180B;"><b class="header_text">Relaxation & Beauty</h1></b>
+
+          <div class="button_items">
+            <button>More>></button>
+            <button>Contact</button>
+          </div>
+         </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Image/3.jpg" alt="image1" width="100%" height="700">
+        <div class=" carousel-caption">
+            <h1 style=" color: #A66F3F;"><b>Your Destination for</h1></b>
+            <h1 style=" color: #A66F3F;"><b class="header_text">Relaxation & Beauty</h1></b>
+           
+         </div>
+      </div>
+      <div class="carousel-item">
+        <img src="Image/4.jpg" alt="image3" width="100%" height="700">
+        <div class=" carousel-caption">
+          <h1 style=" color: #26250F;"><b>Your Destination for</h1></b>
+          <h1 style=" color: #26250F;"><b class="header_text">Relaxation & Beauty</h1></b>
+         </div>
+      </div>
+    </div>
+    
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#demo" data-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </a>
+    <a class="carousel-control-next" href="#demo" data-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </a>
+  </div>
+    </header>
+
+    <section>
+      <div class="container">
+        <!-- Items container -->
+        <div class="service">
+          <h2>
+            <a href="#">SPA SERVICE</a>
+          </h2>
+          <div class="Service_items">
+
+            <table>
+              <tr>
+                <th>
+                  <img src="Image/a1.jpg" height="260px" width="260px">
+                  <div><h2><a href="service.html">WAXING</a></h2></div>
+                </th>
+                <th>
+                  <img src="Image/a2.jpg" height="260px" width="260px">
+                  <div><h2><a href="service.html">NAILS</a></h2></div>
+                </th>
+                <th>
+                  <img src="Image/a3.jpg" height="260px" width="260px">
+                  <div><h2><a href="service.html">FACIAL THERAPY</a></h2></div>
+                </th>
+                <th>
+                  <img src="Image/a4.jpg" height="260px" width="260px">
+                  <div><h2><a href="service.html">MASSAGE BODY</a></h2></div>
+                </th>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <!-- Text container -->
+        <div class="content">
+          <!-- Content left -->
+          <div id="left_content">
+            <p>
+              A LUXURY SALON EXPERIENCE IN THE HEART OF THE FINANCIAL DISTRICT NYC
+            </p>
+          </div>
+          <!-- Content right -->
+          <div id="right_content">
+            <p id="title_textRight">
+              <b>
+                MIA SALON IS THE PERFECT PLACE TO GET AN EXCEPTIONAL HAIRSTYLE FROM TOP-NOTCH, INTERNATIONALLY TRAINED STYLISTS AND COLORISTS.
+              </b>
+            </p> 
+
+            <p>
+              Situated in Lower Manhattan, our two boutique salons serve Wall Street and the Financial District, as well as Battery Park and the World Trade Center area. We are the most recommended salon for hotels and spas in the Financial District and Battery Park neighborhoods.Our salon provides services to men and women of any hair type and style: edgy or classic, straight or curly, short or long. We believe that hair should be defined by its nature and its shape, and we use the industry's top brand, Keratase to bring out your hair's best. 
+
+              Our mission is to provide you with forward-thinking, sophisticated style. Our space, designed by Italian architect Matias Sagaria, is filled with linear balance and injects our inspiration with modernity and purity.
+            </p>
+            <div id="Button_rightContent"><button>Read more</button></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer_container">
+        <div>
+          <p>BEST SPA IN NEW YORK, MIA SPA</p>
+          <p>Join Our List</p>
+          <p>Subscribe to our mailing list to receive updates and promotional offers.</p>
+        </div>
+        <div id="Form">
+          <form>
+            <input type="text" name="Email" id="txtEmail">
+            <input type="submit" name="submit" value="Send">
+          </form>
+        </div>
+
+        <div class="socialMedia">
+          <!-- Add font awesome icons -->
+          <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+          <a href="https://www.google.com/" class="fa fa-google"></a>
+          <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+          <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+        </div>
+        <p style="color: white;">Mia Spa. Copyright 2020. All rights reserved </p>
+      
+      </div>
+
+    </footer>
+
+  </body>
+
+
+</html>
