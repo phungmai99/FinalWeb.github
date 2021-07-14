@@ -1,0 +1,385 @@
+.container{
+    margin-top: 10px;
+    height: 4700px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.title-section{
+    color: #A69B63;
+    text-align: center;
+    padding-top: 30px;
+}
+#logo-service-spa{
+    width: 28%;
+}
+.title-section h2{
+    font-family: 'Merienda';
+}
+#waxing-font{
+    font-family: 'Merienda';
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20%;
+    color: #A69B63;
+}
+/* part one */
+.part-one{
+    width: 100%;
+    height: 700px;
+    padding-top: 10px;
+    background-color:#F2F2F2;
+    margin-top: 80px;
+    border-radius: 3px;
+    font-size: 15.5px;
+}
+.service-waxing-left{
+    padding-top: 10px;
+    width: 48%;
+    float: left;
+}
+.service-waxing-right{
+    padding-top: 10px;
+    width: 48%;
+    float: right;
+}
+.service-waxing-right img{
+    padding-top: 100px;
+    height: 650px;
+    width: 98%;
+    border-radius: 2px;
+}
+#btn-Book-appointment-waxing{
+    padding: 0.9% 19%;
+    margin-left: 3%;
+    background-color: #A69B63;
+    border: none;
+    font-weight: bold;
+    border-radius: 3px;
+}
+/* part two */
+.part-two{
+    width: 100%;
+    height: 800px;
+    padding-top: 10px;
+    background-color:#F2F2F2;
+    margin-top: 50px;
+    border-radius: 3px;
+    font-size: 15.5px;
+
+}
+.service-nails-left{
+    padding-top: 110px;
+    width: 48%;
+    float: left;
+}
+#nails-font{
+    font-family: 'Merienda';
+    color: #A69B63;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 37%;
+}
+.service-nails-right{
+    padding-top: 10px;
+    width: 40%;
+    float: right;
+}
+.service-nails-right div{
+    padding-top: 10px;
+}
+.service-nails-left img{
+    height: 560px;
+    width: 98%;
+    border-radius: 2px;
+    padding-left: 2%;
+}
+#btn-Book-appointment-nail{
+    padding: 0.9% 30%;
+    margin-left: 4%;
+    background-color: #A69B63;
+    border: none;
+    font-weight: bold;
+    border-radius: 3px;
+}
+/*part three*/
+.part-three{
+    width: 100%;
+    height: 770px;
+    padding-top: 10px;
+    background-color:#F2F2F2;
+    margin-top: 50px;
+    border-radius: 3px;
+    font-size: 15px;
+}
+#therapy-font{
+    font-family: 'Merienda';
+    color: #A69B63;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20%;
+}
+.service-therapy-left{
+    padding-top: 10px;
+    width: 48%;
+    float: left;
+}
+.service-therapy-right{
+    padding-top: 20px;
+    width: 48%;
+    float: right;
+}
+.service-therapy-right img{
+    height: 660px;
+    width: 98%;
+    border-radius: 2px;
+}
+.service-therapy-left div{
+    padding-top: 10px;
+}
+#btn-Book-appointment-therapy{
+    padding: 0.9% 32%;
+    margin-left: 4%;
+    background-color: #A69B63;
+    border: none;
+    font-weight: bold;
+    border-radius: 3px;
+}
+#therapy-title i{
+    font-size: 13px;
+}
+/* part four */
+.part-four{
+    width: 100%;
+    height: 770px;
+    padding-top: 10px;
+    background-color:#F2F2F2;
+    margin-top: 50px;
+    border-radius: 3px;
+    font-size: 15px;
+}
+#massage-body-font{
+    font-family: 'Merienda';
+    color: #A69B63;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20%;
+}
+.service-massage-body-left{
+    padding-top: 70px;
+    width: 48%;
+    float: left;
+}
+.service-massage-body-right{
+    padding-top: 10px;
+    width: 44%;
+    float: right;
+}
+.service-massage-body-left img{
+    height: 600px;
+    width: 100%;
+    border-radius: 2px;
+    padding-left: 2%;
+}
+#btn-Book-appointment-massage-body{
+    padding: 0.9% 33%;
+    margin-left: 4%;
+    background-color: #A69B63;
+    border: none;
+    font-weight: bold;
+    border-radius: 3px;
+}
+#massage-body-title i{
+    font-size: 13px;
+}
+.service-massage-body-right div{
+    padding-top: 10px;
+}
+/* part five */
+.part-five{
+    width: 100%;
+    height: 770px;
+    padding-top: 10px;
+    margin-top: 50px;
+    border-radius: 3px;
+    font-size: 15px;
+}
+#title-part-five{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-family: 'Merienda';
+    color: #A69B63;
+}
+#image-canvas img{
+    width: 100%;
+    height: 550px;
+}
+#Foot-hand-massage-part{
+    padding-left: 1%;
+    padding-top: 70px;
+}
+#Foot-hand-massage-font{
+    padding-bottom: 30px;
+    font-family: 'Merienda';
+    color: #A69B63;
+}
+/* Footer */
+footer{
+    margin-top: 10px;
+    background-color: #2A2C2E;
+    width: 100%;
+    height: 420px;
+  }
+  .footer_container{
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+  .footer_container p{
+    padding-top: 20px;
+    color: white;
+  }
+
+  form{
+    font-size: 20px;
+  }
+  #btnSumit{
+    background-color: #2A2C2E;
+    color: white;
+    border: 0.1rem solid white ;
+  }
+  #btnSumit {
+    font-size: 10px;
+  }
+  #txtEmail{
+    padding-right: 60px;
+  }
+
+  .fa {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none; 
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 4px;
+  }
+
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  .socialMedia{
+    margin-top: 20px;
+  }
+  /* About US Style */
+  .container-aboutUs{
+    margin-top: 10px;
+    height: 2300px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.part-one-aboutus{
+    width: 100%;
+    height: 700px;
+    padding-top: 10px;
+    margin-top: 80px;
+    font-size: 15.5px;
+}
+.AboutUs-section1-left{
+    padding-top: 10px;
+    width: 49%;
+    float: left;
+    height: 300px;
+    padding-left: 6%;
+    padding-right: 8%;
+}
+.AboutUs-section1-right{
+    padding-top: 10px;
+    width: 49%;
+    float: right;
+    padding-right: 6%;
+}
+.AboutUs-section1-right img{
+    
+    height: 652px;
+    width: 98%;
+    border-radius: 2px;
+}
+.AboutUs-section1-left h2{
+    padding-left: 17%;
+    font-size: 400%;
+    color: #A69B63;
+}
+
+/* part two aboutUs */
+.part-two-aboutus{
+    width: 100%;
+    height: 1300px;
+    padding-top: 10px;
+    margin-top: 80px;
+    font-size: 15.5px;
+}
+.AboutUs-section2-Upside{
+    padding-top: 10px;
+    width: 100%;
+    height: 700px;
+    padding-left: 11.8%;
+}
+.AboutUs-section2-Upside img{
+    width: 92%;
+    height: 650px;
+}
+.AboutUs-section2-Downside{
+    padding-top: 10px;
+    width: 100%;
+    height: 700px;
+    padding-left: 11.8%;
+}
+.AboutUs-section2-Downside h4{
+    color: #A69B63;
+    font-size: 254%;
+    padding-right: 7%;
+}
+.AboutUs-section2-Downside p{
+    font-size: 130%;
+    padding-top: 20px;
+    padding-right: 7.9%;
+}
+.AboutUs-section2-Downside a{
+    font-family: 'Sacramento', cursive;
+    font-size: 220%;
+    float: right;
+    padding-right: 18%;
+}
+#myContainer {
+    width: 100%;
+    height: 60px;
+  }
+  #myAnimation {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    display: none;
+  }
